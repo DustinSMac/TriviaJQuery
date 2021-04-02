@@ -1,0 +1,31 @@
+h1 {
+    size: 100px;
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-color: grey;
+}
+.flex-form{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.card {
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.choice {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: green;    
+    color: red;
+    justify-content: center;
+}
