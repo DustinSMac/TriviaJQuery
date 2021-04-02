@@ -7,7 +7,7 @@ body{
     background-color: grey;
 }
 .flex-form{
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
 }
 
@@ -23,7 +23,7 @@ body{
     border-radius: 20px;
 }
 .choice {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     background-color: green;    
     color: red;

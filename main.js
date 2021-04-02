@@ -45,13 +45,13 @@ $(document).ready(function () {
                 y = `l${i}${j}`;
                 
                 if(document.getElementById(x).value == answers[i]){
-                    document.getElementById(y).style.Color="blue";
+                    document.getElementById(y).style.color="blue";
                     if(document.getElementById(x).checked== true){
                         CorrectAnswer+=1;
                     }
                 }
                 else{
-                    document.getElementById(y).style.Color = "red";
+                    document.getElementById(y).style.color = "red";
                 }
             };
         };
